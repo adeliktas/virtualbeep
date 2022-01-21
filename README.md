@@ -19,3 +19,20 @@ scikits.audiolab.
 
 If you have those packages, clone or download this repo and run virtualbeep.py.
 
+
+[Update] Install and Run
+===============
+
+wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
+
+python2.7 get-pip.py
+
+python2 -m pip -V
+
+python2 -m pip install --user numpy
+
+python2 -m pip install --user scikits.audiolab
+
+python2 imperial.py
+
+WARNING: BEEP IS EXTREMELY LOUD, LOWER VOLUME!!!
